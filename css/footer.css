@@ -1,0 +1,23 @@
+.footer {
+  background: #706df3;
+}
+
+.footer-container {
+  max-width: 1200px;
+  padding: 20px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 50px;
+  text-align: center;
+  align-items: center;
+}
+
+.footer-contato {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.footer-subtitulo {
+  font-size: 1rem;
+}
