@@ -1,7 +1,7 @@
 .header {
   max-width: 1200px;
   display: flex;
-  background: white;
+  background: var(--fundo1);
   justify-content: space-between;
   margin: 0 auto;
   align-items: center;
@@ -30,16 +30,16 @@
 }
 
 .header-menu a {
-  color: white;
+  color: var(--fundo1);
   display: block;
-  background: #706df3;
+  background: var(--cor-primaria);
   padding: 12px 30px;
   border-radius: 4px;
   border: 2px solid transparent;
 }
 
 .header-menu a:hover {
-  border: 2px solid black;
+  border: 2px solid var(--fundo2);
 }
 
 @media (max-width: 800px) {

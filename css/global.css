@@ -1,7 +1,24 @@
+:root {
+  --cor-primaria: #706df3;
+  --fundo1: #ffffff;
+  --fundo2: #000000;
+  --cor-secundaria: #f7f7f7;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --cor-primaria: #706df3;
+    --fundo1: #000000;
+    --fundo2: #ffffff;
+    --cor-secundaria: #070707;
+  }
+}
+
 body {
   font-family: "Fira Sans";
   margin: 0px;
   margin-bottom: 0px;
+  background: var(--fundo1);
 }
 
 ul {
@@ -12,7 +29,6 @@ ul {
 
 a {
   text-decoration: none;
-  color: black;
 }
 
 img {

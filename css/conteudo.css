@@ -5,9 +5,11 @@
   margin: 0 auto;
   margin-bottom: 10px;
   justify-items: right;
+  background: var(--fundo1);
 }
 
 .subtitulo {
+  color: var(--fundo2);
   font-size: 4rem;
   margin-right: 10px;
 }

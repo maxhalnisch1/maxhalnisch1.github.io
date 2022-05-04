@@ -1,5 +1,5 @@
 .footer {
-  background: #706df3;
+  background: var(--cor-primaria);
 }
 
 .footer-container {
@@ -20,4 +20,10 @@
 
 .footer-subtitulo {
   font-size: 1rem;
+  color: var(--fundo2);
+}
+
+.footer-contato h6,
+span {
+  color: var(--fundo2);
 }
