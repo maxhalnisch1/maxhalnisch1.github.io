@@ -13,7 +13,7 @@
 
 .sobre-subtitulo {
   font-size: 4rem;
-  color: #f7f7f7;
+  color: var(--fundo1);
 }
 
 .sobre-container h3 {

@@ -27,6 +27,7 @@
 
 .logo-container h1 {
   padding: 0px 20px;
+  color: var(--fundo2);
 }
 
 .header-menu a {
